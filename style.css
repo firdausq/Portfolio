@@ -1,3 +1,26 @@
+body {
+    background-color: black;
+}
+
 h1 {
     color: pink
+}
+
+h2 {
+    color: pink;
+}
+
+p {
+    color: white;
+}
+
+li {
+    color: white;
+    display: inline;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
