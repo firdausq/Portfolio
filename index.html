@@ -6,6 +6,9 @@
     <head>
         <title>Portfolio - Home</title>
         <link href="./style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&display=swap" rel="stylesheet">
     </head>
 
     <!-- Body -->
@@ -13,43 +16,59 @@
     <body>
 
         <!--Navbar-->
-        <nav>
+        <nav id="header">
             <div id="nav-logo-section" class="nav-section">
                 <a href="./index.html">Home</a>
             </div>
             <div id="nav-link-section" class="nav-section">
                 <a href="#">Projects</a>
                 <a href="./contact.html">Contact</a>
-            </div>
-            <div id="nav-icon-section" class="nav-section">
                 <a href="#">Lang</a>
             </div>
         </nav>
 
         <!--Header-->
         <header>
-            <h1>I'm Firdaus Qarar</h1>
-            <p>I do programming. Mostly Front-End.</p>
+            <div id="white"></div>
+            <div id="header-content">
+                <h1>I'm <br>
+                    <span id="fancy-name">- Firdaus Qarar -</span></h1>
+                <p>I do programming. Mostly Front-End.</p>
+            </div>
+
         </header>
 
         <!--About Me-->
         <div id="about-me">
-            <h2>About Me:</h2>
-            <p>I do programming and art</p>
-            <h2>My career:</h2>
-            <p>2022 - 2024: Codecadamy Front-End Course</p>
+            <div id="about-content">
+                <h2>About Me:</h2>
+                <p>I do programming and art</p>
+                <h2>My career:</h2>
+                <p>2022 - 2024: Codecadamy Front-End Course</p>
+            </div>
         </div>
 
         <!--My Projects-->
         <div id="my-projects">
-            <div class="project" id="archery">
-                <p>The Archery club</p>
-            </div>
-            <div class="project">
-                <p>Project 2</p>
-            </div>
-            <div class="project">
-                <p>Project 3</p>
+            <h2>My Projects:</h2>
+            <div id="projects">
+                <div class="project" id="archery">
+                    <div class="img"></div>
+                    <div class="label">The Archery club</div>
+                </div>
+                <div class="project" id="project-2">
+                    <div class="img"></div>
+                    <div class="label">Project 2</div>
+                </div>
+                <div class="project" id="project-3">
+                    <p>Project 3</p>
+                </div>
+                <div class="project" id="project-4">
+                    <p>Project 4</p>
+                </div>
+                <div class="project" id="project-5">
+                    <p>Project 5</p>
+                </div>
             </div>
         </div>
 
@@ -64,5 +83,7 @@
             </div>
             <a href="./contact.html"><button>Contact</button></a>
         </footer>
+
+        <script src="./script.js"></script> 
     </body>
 </html>
